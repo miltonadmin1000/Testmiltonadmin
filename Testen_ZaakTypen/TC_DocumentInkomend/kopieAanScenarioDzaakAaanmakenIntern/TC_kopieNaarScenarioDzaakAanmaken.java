@@ -60,7 +60,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import lib.ClickElement;
 
-public class kopieNaarScenarioDzaakAanmkaen {
+public class TC_kopieNaarScenarioDzaakAanmaken {
 
 	public static void main(String[] args) {
 		
@@ -258,7 +258,7 @@ public class kopieNaarScenarioDzaakAanmkaen {
 		//And: gebruiker keert terug naar acceptatie-omgeving in de tab 'een nieuwe zaak starten'
 		driver.findElement(By.xpath("//button[text()='OK']")).click();
 		System.out.println("pop-up wordt gesloten ");
-		System.out.println("gebruiker keert terug naar acceptatie-omgeving in de tab 'een nieuwe zaak starten'");
+		
 		if(driver.findElement(By.xpath("//li[4]/a[2]/em/span/span")) != null)
 		{
 			  System.out.println("gebruiker keert terug naar acceptatie-omgeving in de tab 'een nieuwe zaak starten'_OK_TEST SUCCES!!!");

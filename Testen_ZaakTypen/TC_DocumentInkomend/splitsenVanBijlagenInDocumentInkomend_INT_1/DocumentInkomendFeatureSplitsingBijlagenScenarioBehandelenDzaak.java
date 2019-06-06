@@ -48,7 +48,7 @@ public class DocumentInkomendFeatureSplitsingBijlagenScenarioBehandelenDzaak  {
 	
 public static void main(String[] args) {
 
-	
+	System.out.println("======================================================START TEST==============================================");
 	 //Java kiest Firefox alls webdriver		  
 	  System.setProperty("webdriver.gecko.driver","G:\\Desktop\\automation\\geckodriver-v0.24.0-win64\\geckodriver.exe");
 	  DesiredCapabilities capabilities = DesiredCapabilities.firefox();
@@ -76,14 +76,12 @@ public static void main(String[] args) {
     WebDriverWait wait = new WebDriverWait(driver, 10);
     wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='ext-comp-1017']"))).sendKeys("Test splitsen bijlagen");
     System.out.println("betreft veld gevonden");
-	}
-
-	//WebDriverWait wait = new WebDriverWait(driver, 10);
-	//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='ext-comp-1017']"))).sendKeys("Test splitsen bijlagen");
-	//System.out.println("betreft veld gevonden");
 	
 
+	
+	
+System.out.println("======================================================EINDE TEST==============================================");
 
 
 
-}
+}}

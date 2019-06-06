@@ -275,6 +275,7 @@ try {
 
 
 driver.quit();
+driver=null;
 
 
 

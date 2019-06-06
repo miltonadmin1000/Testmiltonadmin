@@ -25,7 +25,7 @@
    When: gebruiker klikt op 'Verzenden'
    Then: mail venster sluit zich 
  */
-package mailnaarzaaksysteem_INT_2;
+package Mailnaarzaaksysteem_INT_2;
 
 import java.io.IOException;
 
